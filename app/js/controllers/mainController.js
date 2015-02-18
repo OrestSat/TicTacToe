@@ -68,7 +68,6 @@ MyApp.controller("MainController", ["$scope", "$rootScope", function($scope, $ro
             }
         }
         catch(error) {
-            console.log(error);
             $scope.checkReverse(i, j, delta_i, delta_j);
         }
     };
